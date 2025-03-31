@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.0/dist/locomotive-scroll.min.js" defer></script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container" data-scroll-container>
+        <!-- Hero Section -->
+        <section class="hero" data-scroll-section>
+            <h1 class="title">Welcome to My Portfolio</h1>
+            <p class="subtitle">Showcasing my web projects with animations</p>
+        </section>
+        
+        <!-- Projects Section -->
+        <section class="projects" data-scroll-section>
+            <h2>My Projects</h2>
+            <div class="project-list">
+                <div class="project-item" data-preview="preview1.jpg">Project 1</div>
+                <div class="project-item" data-preview="preview2.jpg">Project 2</div>
+                <div class="project-item" data-preview="preview3.jpg">Project 3</div>
+            </div>
+        </section>
+    </div>
+    
+    <!-- Preview Section -->
+    <div class="preview"></div>
+</body>
+</html>
