@@ -10,20 +10,29 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-
     <header>
         <nav>
             <div class="logo" >
-                <img src="geminie\assests\logo.png" alt="Your Logo" class="logo">
+                <img src="assests\logo.png" alt="Your Logo" class="logo">
             </div>
             <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="https://www.linkedin.com/in/yourprofile" target="_blank">LinkedIn</a></li>
+                <li><a href="https://github.com/omkxrrrr" target="_blank">GitHub</a></li>
+                <li><a href="mailto:yourmail@gmail.com">Gmail</a></li>
             </ul>
+            <button onclick="toggleMenu()" class="menu-icon">☰</button>
         </nav>
     </header>
+
+    <div id="mobileMenu" class="mobile-menu">
+        <div class="flex flex-col gap-4">
+            <ul class="desktop-view">
+                <li><a href="https://www.linkedin.com/in/yourprofile" target="_blank">LinkedIn</a></li>
+                <li><a href="https://github.com/yourusername" target="_blank">GitHub</a></li>
+                <li><a href="mailto:yourmail@gmail.com">Gmail</a></li>
+            </ul>
+        </div>
+    </div>
 
     <section id="home" class="hero">
         <div class="hero-content">
@@ -55,7 +64,7 @@
                 <h3>Horizon Event Website</h3>
                 <p>
                     <b>Horizon</b> is a dynamic website built for our college event, 
-                    serving as a central platform for event details, registration, and updates. 
+                    serving as a central platform for event details, registration, and updates.<br> 
                     With a sleek, user-friendly interface, it offers seamless navigation, 
                     making it easy for visitors to access schedules, highlights, and guest information.
                 </p>
@@ -85,17 +94,25 @@
 
     <section id="about" class="about-section">
         <h2>About Me</h2>
-        <p>Write a paragraph or two about yourself, your skills, and your goals.</p>
+        <p>
+            I'm an IT student passionate about web development and UI/UX design, 
+            with a strong foundation in HTML, CSS, JavaScript, and modern frameworks. 
+            I enjoy creating responsive, user-friendly websites that blend clean design with efficient functionality. 
+            This site showcases my journey, projects, and dedication to building smart, innovative digital experiences.
+        </p>
     </section>
 
     <section id="contact" class="contact-section">
         <h2>Contact</h2>
-        <p>You can reach me at: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
-        <p>Connect with me on: <a href="#" target="_blank">LinkedIn</a> | <a href="#" target="_blank">GitHub</a></p>
+        <p>You can reach me at: <a href="mailto:omkar.wadekar.06@gmail.com">omkar.wadekar.06@gmail.com</a></p>
+        <p>Connect with me on: 
+            <a href="https://www.linkedin.com/in/omkar-wadekar" target="_blank">LinkedIn</a> | 
+            <a href="https://github.com/omkxrrrr" target="_blank">GitHub</a>
+        </p>
     </section>
 
     <footer>
-        <p>© 2023 Your Name</p>
+        <p>© 2025 Omkar Wadekar</p>
     </footer>
 
     <script src="script.js"></script> <!-- Link to your JavaScript file (if needed) -->
