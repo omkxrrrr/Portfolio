@@ -213,7 +213,7 @@ footer {
     background-color: #1e1e1e;
     color: #fff;
     text-align: center;
-    padding: 20px 0;
+    padding: 7px 0;
 }
 
 .menu-icon {
@@ -223,7 +223,6 @@ footer {
 .mobile-menu{
     display: none;
 }
-
 
 /* Responsive design */
 @media (max-width: 768px) {
